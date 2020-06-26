@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial';
+    font-size: 50px;
+    background-image: url(./fondos/fondo2.jpg);
+    background-size: 100vw;
+    background-position: 0px;
+    flex-direction: column;
+}
+.containerLevel{
+    display: flex;
+}
+.gameboard{
+    height: 100vh;
+    width: 100vh;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    max-width: 50vh;
+    max-height: 50vh;
+}
+.countLevel{
+    height: 60px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 90px auto;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 2.2rem;
+    display: flex;
+}
+.color{
+    width: 50%;
+    height: 50%;
+    /* display: block; */
+}
+.left{
+    float: left;
+}
+.right{
+    float: left;
+}
+.rojo{
+    background: #d92027;
+}
+.rojo.light{
+    background: white;
+}
+.verde{
+    background: #81ce4b;
+}
+.verde.light{
+    background: white;
+}
+.amarillo{
+    background: #ffcd3c;
+}
+.amarillo.light{
+    background: white;
+}
+.celeste{
+    background: #10375c;
+}
+.celeste.light{
+    background: white;
+}
+.button-start{
+    color: #383838;
+    border: none;
+    font-family: 'Calibri';
+    border-radius: 30px;
+    width: 400px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 2.2rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+} 
+.hide{
+    display: none;
+}

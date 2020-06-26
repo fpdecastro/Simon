@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homesimondice.css">
+    <title>Simon Dice</title>
+</head>
+<body>
+    <div class="containerLevel">
+        <input type="text" id="countLevel" placeholder="Nivel:" class="countLevel" readonly="readonly">
+    </div>
+    <div class="gameboard">
+        <div id="rojo" class="color rojo left" data-color="rojo"></div>
+        <div id="verde" class="color verde right" data-color="verde"></div>
+        <div id="amarillo" class="color amarillo left" data-color="amarillo"></div>
+        <div id="celeste" class="color celeste right" data-color="celeste"></div>
+        <button id="btnEmpezar" class="button-start" onclick="Empezarjuego()">EMPIEZA EL JUEGO</button>
+    </div>   
+</body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./logic.js"></script>
+</html>
